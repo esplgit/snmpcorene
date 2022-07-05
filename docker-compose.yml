@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  snmpscripts:
+    image: ectivisecloud/snmpcorene:2
+    #image: ectivisecloud/snmpcorene:latest
+    container_name: snmpcorene
+    restart: always
+    volumes:
+      - ./logs/all.log:/app/all.log:rw
+      - ./config/black_list.json:/app/black_list.json:ro
+      - ./config/snmp_corene.json:/app/snmp_corene.json:ro
+      - ./config/sites.json:/app/sites.json:ro
+    build:
+      context: .
+      dockerfile: ./Dockerfile
