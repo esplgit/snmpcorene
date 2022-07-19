@@ -4,10 +4,10 @@
     "type": "FW",
     "model": "fortios",
     "ip": "192.168.255.1",
-    "name": "C_L2_SR_FW-1",
-    "sn": "FG201ETK18901427",
+    "name": "FW-1",
+    "sn": "",
     "deviceid": "46",
-    "snmpstr": "ESPL888espl",
+    "snmpstr": "public",
     "healthoid": [
       "1.3.6.1.4.1.12356.101.4.1.3.0",
       "1.3.6.1.4.1.12356.101.4.1.4.0"
@@ -18,10 +18,10 @@
     "type": "OLT",
     "model": "smartax",
     "ip": "192.168.11.5",
-    "name": "C-L2-SR-OLT1",
-    "sn": "023WEBD0M2000506",
+    "name": "OLT1",
+    "sn": "",
     "deviceid": "6",
-    "snmpstr": "ESPL888espl",
+    "snmpstr": "public",
     "healthoid": [
       "1.3.6.1.4.1.2011.2.6.7.1.1.2.1.5",
       "1.3.6.1.4.1.2011.2.6.7.1.1.2.1.6"
@@ -32,11 +32,11 @@
     "type": "OLT",
     "model": "smartax",
     "ip": "192.168.11.6",
-    "name": "C-L2-SR-OLT2",
-    "sn": "023WEBD0M5000331",
+    "name": "OLT2",
+    "sn": "",
     "status": "-",
     "deviceid": "7",
-    "snmpstr": "ESPL888espl",
+    "snmpstr": "public",
     "healthoid": [
       "1.3.6.1.4.1.2011.2.6.7.1.1.2.1.5",
       "1.3.6.1.4.1.2011.2.6.7.1.1.2.1.6"
@@ -47,10 +47,10 @@
     "type": "CS",
     "model": "ios",
     "ip": "192.168.11.1",
-    "name": "C-L2-SR-CS",
+    "name": "CoreSwitch",
     "sn": "",
     "deviceid": "5",
-    "snmpstr": "ESPL888espl",
+    "snmpstr": "public",
     "healthoid": [
       "1.3.6.1.4.1.2011.5.25.31.1.1.1.1.5",
       "1.3.6.1.4.1.2011.5.25.31.1.1.1.1.7"
@@ -61,10 +61,10 @@
     "type": "WSW",
     "ip": "192.168.11.7",
     "model": "ios",
-    "name": "C-L2-SR-IS",
-    "sn": "FCW2250A5LR",
+    "name": "SR-IS",
+    "sn": "",
     "deviceid": "8",
-    "snmpstr": "ESPL888espl",
+    "snmpstr": "public",
     "healthoid": [
       "1.3.6.1.4.1.2011.5.25.31.1.1.1.1.5",
       "1.3.6.1.4.1.2011.5.25.31.1.1.1.1.7"
@@ -75,10 +75,10 @@
     "type": "WIFI",
     "model": "smartzone",
     "ip": "192.168.56.2",
-    "name": "C-L2-SR-WLC-1",
-    "sn": "FCW2250A5LR",
+    "name": "WLC-1",
+    "sn": "",
     "deviceid": "2",
-    "snmpstr": "TheClan",
+    "snmpstr": "public",
     "healthoid": [
       ".1.3.6.1.4.1.2021.10.1.3.3",
       ".1.3.6.1.4.1.2021.11.9.0"
@@ -89,10 +89,10 @@
     "type": "WIFI",
     "model": "smartzone",
     "ip": "192.168.56.3",
-    "name": "C-L2-SR-WLC-2",
-    "sn": "FCW2250A5LR",
+    "name": "WLC-2",
+    "sn": "",
     "deviceid": "48",
-    "snmpstr": "TheClan",
+    "snmpstr": "public",
     "healthoid": [
       ".1.3.6.1.4.1.2021.10.1.3.3",
       ".1.3.6.1.4.1.2021.11.9.0"
