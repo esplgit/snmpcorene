@@ -1,5 +1,5 @@
 {
-    "site": "tch",
+    "site": "mysite",
     "oltlist": [
         {
             "ip": "192.168.11.5"
@@ -8,5 +8,5 @@
             "ip": "192.168.11.6"
         }
     ],
-    "cloud_apiurl": "https://nms.ectivisecloud.com/api/inventory"
+    "cloud_apiurl": "https://api.myapiserver.com/api/inventory"
 }
